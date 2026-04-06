@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(119, 118, 118);
+            padding: 3px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.384);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px 20px 20px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.384);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(180, 180, 180);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">INICIO</a>
+            <a href="">ESPORTES</a>
+            <a href="">POLÍTICA</a>
+            <a href="">NOTÍCIAS</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>   
+        <section id="Notícias">
+           <article>
+                <article>
+                    <h2>Notícias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit id nam reiciendis iure vero pariatur dolorum quae facilis mollitia labore, quam tempore et, cupiditate fugit, ab dolorem sint qui dolore.</p>
+                    <aside>
+                        <p>Artigo escrito por José da Silva</p>
+                    </aside>
+                </article>
+           </article>
+           <article>
+
+           </article>
+        </section>
+    </main>
+    <footer>
+         <p>Desenvolvido por Adora</p>
+    </footer>
+</body>
+</html>

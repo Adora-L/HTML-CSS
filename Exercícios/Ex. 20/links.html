@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+            /*
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+            */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(43, 42, 42);
+        }
+        
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: rgb(255, 255, 255);
+            text-decoration: underline;
+        }
+
+        a:active {
+             color: rgb(116, 116, 115);
+        }
+
+        h1 {
+            color: red;
+            text-align: center;
+            
+        }
+
+        a.Especial::before {
+            content: '☜';
+        }
+
+        a.Especial::after {
+            content: '☞';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+        <ul>
+            <li><a href="https://play.hbomax.com/?utm_id=sa|22333959534|179306042831|308971700861&gclsrc=aw.ds&gad_source=1&gad_campaignid=22333959534&gbraid=0AAAAApH9fnrb531IphuRM7qp6K5i_hvrC&gclid=Cj0KCQjw4a3OBhCHARIsAChaqJPH5EvIjrcatA1K3zWg-4I35wOHXPvaVpBTqENBam5YBlIfb6IhtC4aAhApEALw_wcB" target="_blank">Site do HBO Max</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" class="Especial">Canal do Youtube</a></li>
+            <li><a href="https://www.disneyplus.com/pt-br/home" target="_blank">Site do DisneyPLus</a></li>
+        </ul>
+</body>
+</html>

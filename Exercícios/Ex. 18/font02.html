@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'Fantasy';
+        src: url('Fontes/FANTASY MAGIST.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+
+        /*
+        Tipos de format()
+        - opentype (otf)
+        - truetype(ttf)
+        - embedded-aat (apple advanced typography)
+        - svg
+        */
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        font-family: 'Fantasy';
+        font-size: 3em;
+    }
+</style>
+<body>
+    <h1>Fantasy Magist: Olá Mundo!</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ducimus iusto nostrum provident, aliquam accusamus ipsa aut rem doloremque ab maiores vel distinctio optio quaerat, quisquam in molestias, quidem alias.</p>
+</body>
+</html>

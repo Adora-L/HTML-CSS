@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fleur+De+Leah&family=UnifrakturMaguntia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fleur+De+Leah&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=UnifrakturMaguntia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Archivo+Black&family=Fleur+De+Leah&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=UnifrakturMaguntia&display=swap');
+
+body {
+    background-image: linear-gradient( to right, rgb(12, 61, 167), rgb(84, 163, 238));
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.466);
+}
+
+header > h1 {
+    margin: 0px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: normal;
+    color: black;
+}
+
+header > p {
+     font-family: "Red Hat Text", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: bold;
+     font-style: normal;
+}
+
+nav {
+    background-color: rgb(36, 77, 165);
+    padding: 3px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.226);
+    margin-bottom: 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+nav > a{
+   text-decoration: none;
+   font-weight: bold;
+   font-family: "Red Hat Text", sans-serif;
+   color: white;
+   margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: rgb(110, 190, 255);
+}
+
+section.Sobre {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.404);
+    margin: 10px;
+}
+
+section > h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: normal;
+}
+
+section > p {
+    font-family: "Amarante", serif;
+}
+
+section > h2 {
+    font-family: "Amarante", serif;
+}
+
+section.Autor {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.404);
+    margin: 10px;
+}
+
+.Autor > h1{
+    margin: 0px;
+}
+
+.Autor > h2 {
+    font-family: "Amarante", serif;
+}
+
+section.Veja {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.404);
+    margin: 10px;
+}
+
+section.Personagens {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.404);
+    margin: 10px;
+}
