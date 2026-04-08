@@ -6,19 +6,26 @@
     <title>Teste de imagem</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-image: url(Imagens/wallpaper002.jpg);
             background-color: black;
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand - backgroun
+             color > image > position > repeat > [size] > attachment **Size não funciona assim**
+            */
+            background: black url(Imagens/wallpaper002.jpg) center top no-repeat fixed;
+            background-size: cover;       
         }
 
         main {
             background-color: white;
             border: 1px solid lightgray;
             border-radius: 15px;
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             padding: 10px;
         }
