@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        col.nome {
+            background-color: gray;
+        }
+        
+        col.grupo {
+            background-color: red;
+        }
+
+        col.profi {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+           <col class="nome">
+           <col class="grupo" span="2">
+           <col class="profi">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jardineiro(a)</td>
+        </tr>
+        <tr>
+            <td>Cláudio</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Programador</td>
+        </tr>
+    </table>
+</body>
+</html>
