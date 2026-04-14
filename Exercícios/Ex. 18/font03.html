@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes - Livro</title>
+    <style>
+        @font-face {
+        font-family: 'Raizes';
+        src: url('Fontes/Kells\ SD.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal; }
+
+        @font-face {
+        font-family: 'Inefavel';
+        src: url('Fontes/Schmale\ Halbfette\ Fraktur.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+
+        /*
+        Tipos de format()
+        - opentype (otf)
+        - truetype(ttf)
+        - embedded-aat (apple advanced typography)
+        - svg
+        */
+    }
+
+
+    body {
+        text-align: center;
+    }
+
+    h1,p {
+        font-family: "Raizes", sans-serif;
+        font-size: 3em;
+        margin-bottom: 2px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.418);
+    }
+
+    h2 {
+        font-family: "Inefavel", sans-serif;
+        margin-top: 0px;
+        font-size: 3em;
+        font-weight: normal;
+        color: black;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.418);
+    }
+
+    p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-weight: bolder;
+    }
+
+    p#autor {
+        font-size: 33px;
+        margin-top: 10px;
+    }
+
+    p.textc {
+        margin-bottom: 15px;
+        font-size: 2em;
+    }
+
+    h2.titlec {
+        margin-top: 20px;
+    }
+
+    img {
+        height: 7em;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(128, 25, 25);
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: red;
+    }
+
+    section#capa {
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        border:solid 1px black;
+        border-radius: 20px;
+     }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section id="capa">
+            <img src="imagem/Adora-L2.png" alt="Logo">
+            <h1>Raízes</h1>
+            <p>do</p>
+            <h2>Inefável</h2>
+            <p class="textc">As crônicas de Welkarya - Livro 1</p>
+            <p id="autor">Adora L.</p>
+        </section>
+        <section id="worldbuild">
+            <h1>Nação da Água</h1>
+            <h2>Varendia</h2>
+            <h1>Nação do Fogo</h1>
+            <h2>Ashae</h2>
+            <h1>Nação do Ar</h1>
+            <h2>Everwin</h2>
+            <h1>Nação da terra</h1>
+            <h2>Shenuan</h2>
+        </section>
+        <section id="song">
+            <h2 class="titlec">Playlist</h2>
+            <p class="textc">Ouça a playlist de <a href="https://open.spotify.com/playlist/6DlhgwfpUPXeguArIfXx4E?si=7ec24bb8d30f4695" target="_blank">Raízes do Inefável</a> no Spotify.</p>
+        </section>
+    </main>
+    
+</body>
+</html>
