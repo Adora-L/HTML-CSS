@@ -9,11 +9,16 @@
     <h1>Exemplo de Formulário</h1>
     <form action="cadastro.html" method="get" autocomplete="on">
         <fieldset>
+            <legend>Gênero</legend>
+            <input type="radio" name="Gênero" id="Feminine" value="F"><label for="Feminine">Feminino</label><br>
+            <input type="radio" name="Gênero" value="M" id="Masculine" checked><label for="Masculine">Masculino</label>
+        </fieldset>
+        <fieldset>
             <legend>Esportes favoritos</legend>
-            <input type="checkbox" name="Esporte" id="Sport">Basquete
-            <input type="checkbox" name="Esporte" id="Sport">Futebol
-            <input type="checkbox" name="Esporte" id="Sport">Natação
-            <input type="checkbox" name="Esporte" id="Sport">Tênis
+            <input type="checkbox" name="Basquete" id="Basketball"><label for="Basketball">Basquete</label><br>
+            <input type="checkbox" name="Futebol" id="Footeball" checked><label for="Footeball">Futebol</label><br>
+            <input type="checkbox" name="Natação" id="Swimming"><label for="Swimming">Natação</label><br>
+            <input type="checkbox" name="Tênis" id="Tennis"><label for="Tennis">Tênis</label>
         </fieldset>
 
         <p>

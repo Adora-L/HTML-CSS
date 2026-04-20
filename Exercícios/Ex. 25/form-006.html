@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.html" autocomplete="on" method="post">
+        <p>
+            <label for="Color">Cor:</label>
+            <input type="color" id="Color" name="Cor" value="#00FF00">
+        </p>
+        <p>
+            <label for="Level">Nível de Satisfação:</label>
+            <input type="range" id="Level" name="Nível" value="1">
+        </p>
+        <p>
+            <label for="File">Insira uma imagem:</label>
+            <input type="file" name="Imagem" id="File">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
