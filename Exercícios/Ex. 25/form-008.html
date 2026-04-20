@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.html" method="get" autocomplete="on" oninput="idsum.innerHTML = Number(NumberOne.value) + Number(NumberTwo.value)">
+        <p>
+            <label for="NumberOne">Número um</label>
+            <input type="number" name="Número um" id="NumberOne" min="0" max="50" required>
+        </p>
+        <p>
+            <label for="NumberTwo">Número dois</label>
+            <input type="number" name="Número dois" id="NumberTwo" min="0" max="50" required>
+        </p>
+
+        <p>
+            <label for="Sum">Soma:</label>
+            <output id="idsum" name="Soma">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
