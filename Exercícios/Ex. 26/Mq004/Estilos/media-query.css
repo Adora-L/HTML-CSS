@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/*Typical Device Breakpoints
+-------------------------------
+Pequenas telas: até 600px;
+Celular: de 600px até 768px;
+Tablet: 768px até 992px;
+Desktop: 992px até 1200px;
+Grandes telas: acima de 1200px.
+--------------------------------
+*/
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    body {
+        background-image: url(../Imagens/back-print.jpg);
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    h1 {
+        color: black;
+        text-shadow: none;
+    }
+
+    img#Smartphone {
+        display: none;
+        }
+        img#Tablet {
+            display: none;
+        }
+        img#Print {
+            display: block;
+        }
+        img#Desktop {
+            display: none;
+        }
+        img#TV {
+            display: none;
+        }
+        
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../Imagens/back-tablet.jpg);
+    }
+
+        img#Smartphone {
+        display: none;
+        }
+        img#Tablet {
+            display: block;
+        }
+        img#Print {
+            display: none;
+        }
+        img#Desktop {
+            display: none;
+        }
+        img#TV {
+            display: none;
+        }
+
+    }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../Imagens/back-pc.jpg);
+    }
+
+    img#Smartphone {
+        display: none;
+        }
+        img#Tablet {
+            display: none;
+        }
+        img#Print {
+            display: none;
+        }
+        img#Desktop {
+            display: block;
+        }
+        img#TV {
+            display: none;
+        }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../Imagens/back-tv.jpg);
+    }
+
+    img#Smartphone {
+        display: none;
+        }
+        img#Tablet {
+            display: none;
+        }
+        img#Print {
+            display: none;
+        }
+        img#Desktop {
+            display: none;
+        }
+        img#TV {
+            display: block;
+        }
+
+}
