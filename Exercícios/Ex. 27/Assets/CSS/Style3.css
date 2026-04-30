@@ -5,15 +5,16 @@ body {
 }
 
 div.container {
-    background-color: salmon;
+    background-color: rgb(255, 187, 180);
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap-reverse; 
+    /*Flex-direction: Row; e Flex-Wrap: nowrap;*/
 }
 
 div.item {
     background-color: rgb(114, 208, 240);
     border: 1px solid black;
     text-align: center;
-    padding: 10px;
     flex: auto;
+    padding: 10px;
 }

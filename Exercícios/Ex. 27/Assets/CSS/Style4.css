@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+}
+
+div.container {
+    background-color: rgb(255, 187, 180);
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap; 
+    justify-content: space-around;
+    align-items: stretch;
+    /*Flex-direction: Row; e Flex-Wrap: nowrap;*/
+}
+
+div.item {
+    background-color: rgb(114, 208, 240);
+    border: 1px solid black;
+    text-align: center;
+    /*Space-between: Espaço-Entre.
+      Space-evenly: Espaço-uniforme.
+      Space-around: Espaço-ao-redor.*/
+      padding: 10px;
+}
