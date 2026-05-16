@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+:root {
+    --fundo-principal: rgb(170, 129, 235);
+    --fundo-segundário: rgb(34, 34, 34);
+}
+
+ body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--fundo-principal);
+    display: flex;
+}
+
+div.calc {
+    width: 500px;
+    height: 500px;
+    background-color: var(--fundo-segundário);
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.356);
+    border-radius: 20px;
+    align-items: center;
+}
+
